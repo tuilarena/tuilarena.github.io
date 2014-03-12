@@ -1,0 +1,142 @@
+header#header {
+
+  position: fixed;
+  background-color: rgba(255,255,255,.95);
+  width: 100%;
+  z-index: 10;
+  min-height: 50px;
+
+  // @media all and (max-width: 480px)  {
+
+    #logo {
+      position: absolute;
+      display: inline-block;
+      left: 20px;
+      top: 14px;
+
+      a {
+
+        @include at2x('logo', 111px, 18px);
+        background-repeat: no-repeat;
+
+        width: 111px;
+        height: 18px;
+        text-indent: -3000px;
+        color: #000;
+        font-size: 1.5em;
+        display: block;
+        padding: 10px;
+      }
+    } // /.logo
+
+    a#mm {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      display: block;
+      padding: 10px;
+
+      &:before {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+        color: #333;
+        content: '\e800';
+
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        margin-right: .2em;
+        text-align: center;
+        /* opacity: .8; */
+
+        /* For safety - reset parent styles, that can break glyph codes*/
+        font-variant: normal;
+        text-transform: none;
+
+        /* fix buttons height, for twitter bootstrap */
+        line-height: 1em;
+
+        /* Animation center compensation - margins should be symmetric */
+        /* remove if not needed */
+        margin-left: .2em;
+
+        /* you can be more comfortable with increased icons size */
+        font-size: 120%;
+
+        /* Uncomment for 3D effect */
+        /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+      }
+    }
+
+    nav {
+
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      display: block;
+      background-color: rgba(255,255,255,.9);
+      padding-bottom: 10px;
+
+
+      &.mm-hidden {
+        display: none;
+      }
+
+      h3 {
+        text-align: center;
+        font-weight: 300;
+        font-size: .8em;
+        text-transform: uppercase;
+        color: #ccc;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          a {
+            text-align: center;
+            display: block;
+            padding: 10px 0;
+            margin: 0 20px;
+            color: #999;
+          }
+        }
+      }
+    }
+
+  // }
+
+  @media all and (min-width: 480px) {
+
+  //   height: $header-height;
+
+  //   nav {
+
+  //     position: absolute;
+  //     left: 200px;
+
+  //     display: inline-block;
+
+  //     ul {
+  //       display: inline-block;
+  //       margin: 0;
+  //       padding: 0;
+
+  //       li {
+  //         list-style: none;
+  //         display: inline;
+  //         a {
+  //           display: inline-block;
+  //           color: #000;
+  //         }
+  //       }
+  //     }
+  //   } // /nav
+
+  }
+}
