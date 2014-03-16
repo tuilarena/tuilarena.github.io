@@ -189,11 +189,30 @@ header#header nav ul li a {
 }
 /* line 25, ../sass/_page1.scss */
 .pages #page-1 .nextpage {
-  margin-top: 100px;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -45px;
 }
-/* line 29, ../sass/_page1.scss */
+/* line 32, ../sass/_page1.scss */
 .pages #page-1 .nextpage a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 200;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 89px;
+  background-image: url('/images/page1/continue.png?1394981774');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2 / 1), all and (min-device-pixel-ratio: 2), all and (min-resolution: 192dpi), all and (min-resolution: 2dppx) {
+  /* line 32, ../sass/_page1.scss */
+  .pages #page-1 .nextpage a {
+    background-image: url('/images/page1/continue@2x.png?1394981704');
+    background-size: 89px 45px;
+  }
 }
 /* line 57, ../sass/styles.scss */
 .pages #page-2 {

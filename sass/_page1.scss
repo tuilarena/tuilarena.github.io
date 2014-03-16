@@ -24,10 +24,23 @@
 
   .nextpage {
 
-    margin-top: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -45px;
 
     a {
-      color: rgba(255,255,255, .4);
+      color: rgba(255,255,255, .8);
+      font-weight: 200;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      display: inline-block;
+      width: 89px;
+
+      @include at2x("page1/continue", 89px, 45px);
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      height: 80px;
     }
   }
 }
