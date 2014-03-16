@@ -1,3 +1,33 @@
+// 24658f
 #page-1 {
-  background-color: green;
+  background-color: #229eee;
+  @include background-image(linear-gradient(#229eee, #24658f));
+
+  div.hero {
+    background: transparent url(../images/page1/net.png) center center no-repeat;
+    margin:auto;
+
+    .logo {
+      width: 361px;
+      height: 89px;
+      margin: auto;
+      @include at2x("page1/logo", 361px, 89px);
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 1.9em;
+      color: #fff;
+      margin: 10px 0 0 0;
+    }
+  } // /div.hero
+
+  .nextpage {
+
+    margin-top: 100px;
+
+    a {
+      color: rgba(255,255,255, .4);
+    }
+  }
 }

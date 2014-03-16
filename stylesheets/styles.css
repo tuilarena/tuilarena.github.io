@@ -152,9 +152,48 @@ header#header nav ul li a {
   height: 100%;
   padding-top: 50px;
 }
-/* line 1, ../sass/_page1.scss */
+/* line 2, ../sass/_page1.scss */
 .pages #page-1 {
-  background-color: green;
+  background-color: #229eee;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #229eee), color-stop(100%, #24658f));
+  background-image: -webkit-linear-gradient(#229eee, #24658f);
+  background-image: -moz-linear-gradient(#229eee, #24658f);
+  background-image: -o-linear-gradient(#229eee, #24658f);
+  background-image: linear-gradient(#229eee, #24658f);
+}
+/* line 6, ../sass/_page1.scss */
+.pages #page-1 div.hero {
+  background: transparent url(../images/page1/net.png) center center no-repeat;
+  margin: auto;
+}
+/* line 10, ../sass/_page1.scss */
+.pages #page-1 div.hero .logo {
+  width: 361px;
+  height: 89px;
+  margin: auto;
+  background-image: url('/images/page1/logo.png?1394980666');
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2 / 1), all and (min-device-pixel-ratio: 2), all and (min-resolution: 192dpi), all and (min-resolution: 2dppx) {
+  /* line 10, ../sass/_page1.scss */
+  .pages #page-1 div.hero .logo {
+    background-image: url('/images/page1/logo@2x.png?1394980360');
+    background-size: 361px 89px;
+  }
+}
+/* line 17, ../sass/_page1.scss */
+.pages #page-1 div.hero h3 {
+  font-weight: 300;
+  font-size: 1.9em;
+  color: #fff;
+  margin: 10px 0 0 0;
+}
+/* line 25, ../sass/_page1.scss */
+.pages #page-1 .nextpage {
+  margin-top: 100px;
+}
+/* line 29, ../sass/_page1.scss */
+.pages #page-1 .nextpage a {
+  color: rgba(255, 255, 255, 0.4);
 }
 /* line 57, ../sass/styles.scss */
 .pages #page-2 {
