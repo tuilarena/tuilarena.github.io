@@ -25,22 +25,25 @@ img {
   width: 100%;
 }
 
-/* line 1, ../sass/_header.scss */
+/* line 3, ../sass/_header.scss */
 header#header {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
   width: 100%;
   z-index: 10;
   min-height: 50px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
 }
-/* line 11, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 header#header #logo {
   position: absolute;
   display: inline-block;
   left: 20px;
   top: 14px;
 }
-/* line 17, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 header#header #logo a {
   background-image: url('/images/logo.png?1394663175');
   background-repeat: no-repeat;
@@ -53,81 +56,120 @@ header#header #logo a {
   padding: 10px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 2), all and (-o-min-device-pixel-ratio: 2 / 1), all and (min-device-pixel-ratio: 2), all and (min-resolution: 192dpi), all and (min-resolution: 2dppx) {
-  /* line 17, ../sass/_header.scss */
+  /* line 18, ../sass/_header.scss */
   header#header #logo a {
     background-image: url('/images/logo@2x.png?1394662916');
     background-size: 111px 18px;
   }
 }
-/* line 32, ../sass/_header.scss */
-header#header a#mm {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  display: block;
-  padding: 10px;
+@media all and (max-width: 480px) {
+  /* line 35, ../sass/_header.scss */
+  header#header a#mm {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+    padding: 10px;
+  }
+  /* line 42, ../sass/_header.scss */
+  header#header a#mm:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    color: #333;
+    content: '\e800';
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    font-size: 120%;
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+  /* line 76, ../sass/_header.scss */
+  header#header nav {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 10px;
+  }
+  /* line 86, ../sass/_header.scss */
+  header#header nav.mm-hidden {
+    display: none;
+  }
+  /* line 90, ../sass/_header.scss */
+  header#header nav h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #ccc;
+  }
+  /* line 98, ../sass/_header.scss */
+  header#header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* line 104, ../sass/_header.scss */
+  header#header nav ul li a {
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    margin: 0 20px;
+    color: #999;
+  }
 }
-/* line 39, ../sass/_header.scss */
-header#header a#mm:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  color: #333;
-  content: '\e800';
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  font-size: 120%;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-/* line 73, ../sass/_header.scss */
-header#header nav {
-  position: absolute;
-  top: 50px;
-  width: 100%;
-  display: block;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding-bottom: 10px;
-}
-/* line 83, ../sass/_header.scss */
-header#header nav.mm-hidden {
-  display: none;
-}
-/* line 87, ../sass/_header.scss */
-header#header nav h3 {
-  text-align: center;
-  font-weight: 300;
-  font-size: .8em;
-  text-transform: uppercase;
-  color: #ccc;
-}
-/* line 95, ../sass/_header.scss */
-header#header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-/* line 101, ../sass/_header.scss */
-header#header nav ul li a {
-  text-align: center;
-  display: block;
-  padding: 10px 0;
-  margin: 0 20px;
-  color: #999;
+@media all and (min-width: 480px) {
+  /* line 118, ../sass/_header.scss */
+  header#header nav {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: table;
+    height: 50px;
+  }
+  /* line 125, ../sass/_header.scss */
+  header#header nav h3 {
+    display: none;
+  }
+  /* line 129, ../sass/_header.scss */
+  header#header nav ul {
+    display: table-row;
+    width: 100%;
+  }
+  /* line 133, ../sass/_header.scss */
+  header#header nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* line 137, ../sass/_header.scss */
+  header#header nav ul li a {
+    padding: 0 10px;
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: 400;
+  }
+  /* line 145, ../sass/_header.scss */
+  header#header nav ul li a:hover {
+    background-color: #efefef;
+  }
 }
 
 /* line 33, ../sass/styles.scss */

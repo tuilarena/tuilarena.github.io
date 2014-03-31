@@ -1,33 +1,36 @@
+$header-height: 50px;
+
 header#header {
 
   position: fixed;
   background-color: rgba(255,255,255,.95);
   width: 100%;
   z-index: 10;
-  min-height: 50px;
+  min-height: $header-height;
+  @include box-shadow(rgba(0,0,0,.5) 0 0 5px);
 
-  // @media all and (max-width: 480px)  {
+  #logo {
+    position: absolute;
+    display: inline-block;
+    left: 20px;
+    top: 14px;
 
-    #logo {
-      position: absolute;
-      display: inline-block;
-      left: 20px;
-      top: 14px;
+    a {
 
-      a {
+      @include at2x('logo', 111px, 18px);
+      background-repeat: no-repeat;
 
-        @include at2x('logo', 111px, 18px);
-        background-repeat: no-repeat;
+      width: 111px;
+      height: 18px;
+      text-indent: -3000px;
+      color: #000;
+      font-size: 1.5em;
+      display: block;
+      padding: 10px;
+    }
+  } // /.logo
 
-        width: 111px;
-        height: 18px;
-        text-indent: -3000px;
-        color: #000;
-        font-size: 1.5em;
-        display: block;
-        padding: 10px;
-      }
-    } // /.logo
+  @media all and (max-width: 480px)  {
 
     a#mm {
       position: absolute;
@@ -109,34 +112,42 @@ header#header {
       }
     }
 
-  // }
+  }
 
   @media all and (min-width: 480px) {
+    nav {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      display: table;
+      height: $header-height;
 
-  //   height: $header-height;
+      h3 {
+        display: none;
+      }
 
-  //   nav {
+      ul {
+        display: table-row;
+        width: 100%;
 
-  //     position: absolute;
-  //     left: 200px;
+        li {
+          display: table-cell;
+          vertical-align: middle;
 
-  //     display: inline-block;
+          a {
+            padding: 0 10px;
+            display: table-cell;
+            height: $header-height;
+            vertical-align: middle;
+            color: #333;
+            font-weight: 400;
 
-  //     ul {
-  //       display: inline-block;
-  //       margin: 0;
-  //       padding: 0;
-
-  //       li {
-  //         list-style: none;
-  //         display: inline;
-  //         a {
-  //           display: inline-block;
-  //           color: #000;
-  //         }
-  //       }
-  //     }
-  //   } // /nav
-
+            &:hover {
+              background-color: #efefef;
+            }
+          }
+        }
+      }
+    }
   }
 }
