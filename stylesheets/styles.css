@@ -1,4 +1,4 @@
-/* line 9, ../sass/styles.scss */
+/* line 11, ../sass/styles.scss */
 html,
 body {
   margin: 0;
@@ -7,7 +7,7 @@ body {
   min-height: 100%;
 }
 
-/* line 16, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 * {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-box-sizing: border-box;
@@ -15,9 +15,14 @@ body {
   box-sizing: border-box;
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 a {
   text-decoration: none;
+}
+
+/* line 27, ../sass/styles.scss */
+img {
+  width: 100%;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -125,30 +130,35 @@ header#header nav ul li a {
   color: #999;
 }
 
-/* line 27, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .pages {
   position: relative;
   height: 100%;
-  background-color: red;
 }
-/* line 32, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 .pages .table {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 37, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .pages .table .table-row {
   display: table-row;
 }
-/* line 40, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .pages .table .table-row .table-cell {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 48, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
+.pages .page-content {
+  max-width: 1200px;
+  margin: auto;
+}
+/* line 58, ../sass/styles.scss */
 .pages .page {
+  min-height: 100%;
   height: 100%;
   padding-top: 50px;
 }
@@ -214,7 +224,111 @@ header#header nav ul li a {
     background-size: 89px 45px;
   }
 }
-/* line 57, ../sass/styles.scss */
+/* line 2, ../sass/_page2.scss */
 .pages #page-2 {
+  background-color: #f0f0f0;
+  *position: relative;
+  *zoom: 1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+}
+/* line 46, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.pages #page-2:before, .pages #page-2:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.pages #page-2:after {
+  clear: both;
+}
+/* line 7, ../sass/_page2.scss */
+.pages #page-2 .title {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+/* line 10, ../sass/_page2.scss */
+.pages #page-2 .title h1 {
+  font-size: 3em;
+}
+/* line 13, ../sass/_page2.scss */
+.pages #page-2 .title h1 .tuil {
+  font-weight: 200;
+}
+/* line 17, ../sass/_page2.scss */
+.pages #page-2 .title h1 .arena {
+  font-weight: 600;
+}
+/* line 21, ../sass/_page2.scss */
+.pages #page-2 .title h1 .one {
+  font-weight: 300;
+}
+/* line 27, ../sass/_page2.scss */
+.pages #page-2 .text {
+  clear: left;
+  float: left;
+  width: 33.3333333333%;
+  margin-left: 0%;
+  margin-right: -33.3333333333%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  font-size: 1.4em;
+  text-align: left;
+  font-weight: 300;
+}
+/* line 35, ../sass/_page2.scss */
+.pages #page-2 .images {
+  float: left;
+  width: 66.6666666667%;
+  margin-left: 33.3333333333%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+/* line 3, ../sass/_page3.scss */
+.pages #page-3 {
+  background-color: pink;
+}
+/* line 6, ../sass/_page3.scss */
+.pages #page-3 .image-row-1 {
+  height: 33.33333%;
+  background-color: yellow;
+}
+/* line 11, ../sass/_page3.scss */
+.pages #page-3 .text-row {
+  height: 33.33333%;
   background-color: blue;
+}
+/* line 16, ../sass/_page3.scss */
+.pages #page-3 .image-row-2 {
+  height: 33.33333%;
+  background-color: red;
 }

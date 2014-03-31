@@ -1,0 +1,38 @@
+$zen-column-count: 12;
+#page-2 {
+  background-color: rgb(240,240,240);
+  @include zen-grid-container;
+  @include box-shadow(rgba(0,0,0,.5) 0 0 10px);
+
+  .title {
+    @include zen-grid-item(12,1);
+
+    h1 {
+      font-size: 3em;
+
+      .tuil {
+        font-weight: 200;
+      }
+
+      .arena {
+        font-weight: 600;
+      }
+
+      .one {
+        font-weight: 300;
+      }
+    }
+  }
+
+  .text {
+    @include zen-clear();
+    @include zen-grid-item(4,1);
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: 300;
+  }
+
+  .images {
+    @include zen-grid-item(8,5);
+  }
+}

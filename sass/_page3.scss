@@ -1,0 +1,21 @@
+$zen-column-count: 6;
+
+#page-3 {
+  background-color: pink;
+
+  .image-row-1 {
+    height: 33.33333%;
+    background-color: yellow;
+  }
+
+  .text-row {
+    height: 33.33333%;
+    background-color: blue;
+  }
+
+  .image-row-2 {
+    height: 33.33333%;
+    background-color: red;
+  }
+
+}

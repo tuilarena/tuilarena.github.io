@@ -3,6 +3,8 @@
 
 @import "mixins";
 
+$legacy-support-for-ie: false;
+
 $header-height: 50px;
 
 html,
@@ -22,12 +24,15 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 @import "header";
 
 .pages {
   position: relative;
   height: 100%;
-  background-color: red;
 
   .table {
     display: table;
@@ -45,16 +50,19 @@ a {
     }
   }
 
+  .page-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .page {
+    min-height: 100%;
     height: 100%;
     padding-top: $header-height;
   }
 
   @import "page1";
+  @import "page2";
+  @import "page3";
 
-
-
-  #page-2 {
-    background-color: blue;
-  }
 }
