@@ -2,6 +2,8 @@
 #page-1 {
   background-color: #229eee;
   @include background-image(linear-gradient(#229eee, #24658f));
+  background: transparent url(../images/page1/tromsdalselva-sentrum.jpg) center center no-repeat;
+  background-size: cover;
 
   div.hero {
     background: transparent url(../images/page1/net.png) center center no-repeat;
