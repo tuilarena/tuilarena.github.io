@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+docker run --rm -v /src/sass:/app ubuntudesign/sass sass --watch /app/src/scss:/app/resources/stylesheets
+docker run --rm -v ${PWD}:/app ubuntudesign/sass sass --watch /app/src/scss:/app/resources/stylesheets
+
+
+docker run --rm -v ${PWD}:/app ubuntudesign/sass sass app/src/sass/style.scss:app/resources/css/style.css
+docker run --rm -v ${PWD}:/app ubuntudesign/sass sass app/src/sass/ app/resources/css/
+
+docker run --rm -v ${PWD}:/app ubuntudesign/sass sass --watch app/src/sass/:app/resources/css/ --trace
