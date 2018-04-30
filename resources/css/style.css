@@ -3,6 +3,10 @@
   font-weight: 400;
 }
 
+.header {
+  background-color: #222a46;
+}
+
 .page {
   min-height: 90vh;
 }
