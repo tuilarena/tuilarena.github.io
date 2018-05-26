@@ -14,4 +14,13 @@
 	    </div>
 	</header>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+$blue: rgb(35,46,86);
+$yellow: rgb(255,166,17);
+$white_bg: #f7f7f7;
+
+$font-family: 'Roboto', sans-serif;
+	header {
+	    background-color: #222a46;
+	}
+</style>
