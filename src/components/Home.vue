@@ -187,13 +187,13 @@
       <div class="container-fluid">
         <div class="row no-gutters quote">
           <div class="col-md-6">
-            <blockquote>
-              <span class="q">De rikeste minnan æ har hatt i mitt liv, det må æ til fotballbanen for å finne.</span>
-              <span class="author">Arthur Arntzen</span>
+            <blockquote class="blockquote">
+              <p class="mb-0">De rikeste minnan æ har hatt i mitt liv, det må æ til fotballbanen for å finne.</p>
+              <footer class="blockquote-footer">Arthur Arntzen</footer>
             </blockquote>
           </div>
           <div class="col-md-6">
-            <img src="resources/images/folder/Page-9-Image-13.jpg" alt="Sitat Arthur Arntzen" style="width: 100%;">
+            <img src="../assets/folder/Page-9-Image-13.jpg" alt="Sitat Arthur Arntzen" style="width: 100%;">
           </div>
         </div>
       </div>
@@ -522,7 +522,6 @@ $white_bg: #f7f7f7;
             &:first-child {
                 padding: 20px 40px;
                 color: #fff;
-                text-align: center;
                 
                 span.q {
                     font-size: 1.5em;
