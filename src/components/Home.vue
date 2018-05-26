@@ -12,7 +12,7 @@
           </div>
 
           <div class="col-sm-12 col-md-8">
-            <img class="d-sm-nones" src="resources/images/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
+            <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
           </div>
 
         </div>
