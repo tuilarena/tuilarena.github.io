@@ -8,7 +8,7 @@
 	            </div>
 	            <div class="col text-right text-white pr-4">
 
-					<i class="fas fa-bars" @click="showOverlayMenu = !showOverlayMenu"></i>
+					<i class="fas fa-bars" @click="toggleOverlayMenu()"></i>
 
 	                <div class="menu">
 	                	<span class="border-transparent">Bli arenaløfter!</span>
@@ -22,14 +22,21 @@
 </template>
 <script>
 import OverlayMenu from './OverlayMenu'
+import { mapState, mapActions } from 'vuex'
 export default {
 	components: {
 		OverlayMenu
 	},
 
-	data() {
-		return {
-			showOverlayMenu: true
+	computed: {
+		...mapState(['showOverlayMenu'])
+	},
+
+	methods: {
+		...mapActions(['toggleOverlayMenu']),
+
+		test() {
+			console.log('aslfkj')
 		}
 	}
 };
@@ -43,7 +50,7 @@ $font-family: 'Roboto', sans-serif;
 header {
     background-color: #222a46;
 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;

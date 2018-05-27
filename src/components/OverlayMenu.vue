@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row mt-4">
 			<div class="col text-right pr-4">
-				<i class="fas fa-times" @click="$emit('close')"></i>
+				<i class="fas fa-times" @click="toggleOverlayMenu()"></i>
 			</div>
 		</div>
 
@@ -24,10 +24,10 @@
 				</p>
 			</div>
 			<div class="col pl-4">
-				<a href="#" class="btn btn-primary btn-block">Privatperson</a>
+				<a href="#" class="btn btn-primary btn-block" @click="private()">Privatperson</a>
 			</div>
 			<div class="col pr-4">
-				<a href="#" class="btn btn-primary btn-block">Bedrift</a>
+				<a href="#" class="btn btn-primary btn-block" @click="business()">Bedrift</a>
 			</div>
 		</div>
 
@@ -39,37 +39,26 @@
 				</ul>
 			</div>
 		</div>
-
-		<div class="row mb-5">
-			<div class="col">
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-				<p>hei</p>
-			</div>
-		</div>
 	</div>
 </nav>
 </template>
 <script>
+import { mapState, mapActions } from 'vuex'
 export default {
+	computed: {
+		...mapState(['showOverlayMenu'])
+	},
 	methods: {
-		close: () => {
-			console.log(this)
+		...mapActions(['toggleOverlayMenu']),
+
+		private() {
+			console.log('private')
+			this.toggleOverlayMenu()
+		},
+
+		business() {
+			console.log('business')
+			this.toggleOverlayMenu()
 		}
 	}
 };
