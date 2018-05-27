@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row mt-4">
 			<div class="col text-right pr-4">
-				<i class="fas fa-times" @click="toggleOverlayMenu()"></i>
+				<i class="fas fa-times" @click="toggleOverlayMenu()" style="cursor: pointer"></i>
 			</div>
 		</div>
 
@@ -34,7 +34,7 @@
 		<div class="row mb-5">
 			<div class="col pr-4 pl-4">
 				<ul>
-					<li><a href="#" class="text-white">Se hvem som allerede har kjøpt</a></li>
+					<li>Se hvem som allerede har kjøpt</li>
 					<li><a href="#" class="text-white">TUIL takker disse bedriftene</a></li>
 				</ul>
 			</div>

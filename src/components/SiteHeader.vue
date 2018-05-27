@@ -1,6 +1,6 @@
 <template>
-	<header class="header">
-		<OverlayMenu v-if="showOverlayMenu" @close="showOverlayMenuj = false"></OverlayMenu>
+	<header ref="header" class="header" :class="{fixed}">
+		<OverlayMenu v-if="showOverlayMenu"></OverlayMenu>
 	    <div class="container-fluid">
 	        <div class="row align-items-center">
 	            <div class="col p-3 pl-4">
@@ -8,7 +8,7 @@
 	            </div>
 	            <div class="col text-right text-white pr-4">
 
-					<i class="fas fa-bars" @click="toggleOverlayMenu()"></i>
+					<i class="fas fa-bars" @click="toggleOverlayMenu()" style="cursor: pointer;"></i>
 
 	                <div class="menu">
 	                	<span class="border-transparent">Bli arenaløfter!</span>
@@ -24,6 +24,11 @@
 import OverlayMenu from './OverlayMenu'
 import { mapState, mapActions } from 'vuex'
 export default {
+	data() {
+		return {
+			fixed: false
+		}
+	},
 	components: {
 		OverlayMenu
 	},
@@ -35,9 +40,15 @@ export default {
 	methods: {
 		...mapActions(['toggleOverlayMenu']),
 
-		test() {
-			console.log('aslfkj')
+		handleScroll() {
+			this.fixed = window.scrollY > 75 ? true : false
+			console.log(this.$refs.header.clientHeight, window.scrollY)
 		}
+	},
+
+	mounted() {
+		window.addEventListener('scroll', this.handleScroll);
+		this.handleScroll()
 	}
 };
 </script>
@@ -57,6 +68,15 @@ header {
     bottom: 0;
 
     background-color: #222a46;
+
+    &.fixed {
+    	position: fixed;
+    	z-index: 1000;
+    	top: 0;
+    	height: 75px;
+
+    	background-color: rgba(34, 42, 70, .9);
+    }
 
     .menu {
     	display: none;
