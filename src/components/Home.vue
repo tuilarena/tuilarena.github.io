@@ -15,7 +15,80 @@
               <div class="col-sm-12 col-md-8">
                 <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
               </div>
-
+              <div class="col-sm-12">
+                <carousel autoplay="true" loop="true" perPage="3" style="background-color:#F7F7F7">
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/amfi_pyramiden.jpg">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/bp-energi.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/consto.jpg">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/Eimskip_crop.jpg">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/Einerhagen.jpg">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/logo-ishavskraft_transparent.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/mystorelogo.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/Olavsvern_logo_web_sort.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/pwc_crop.jpg">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/schwenke_transparent.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/snn.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/teknisk_bureau_transparent.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/totalrenovering_transparent.png">
+                    </div>
+                  </slide>
+                  <slide>
+                    <div class="img-same-size">
+                      <img src="../assets/sponsors/vvs24-logo-light_crop.png">
+                    </div>
+                  </slide>
+                </carousel>
+              </div>
             </div>
           </div>
         </div>
@@ -287,7 +360,7 @@
            <div class="col-12">
              <img class="d-sm-nones" src="resources/images/folder/Page-12-Image-16.jpg" alt="Nye TUIL Arean">
            </div>
-         </div> 
+         </div>
 
          <div class="container">
 
@@ -321,7 +394,7 @@
           </div>
         </div>
       </div>
-    </template>  
+    </template>
   </div>
 </template>
 
@@ -334,6 +407,16 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.img-same-size {
+    position: relative;
+    float: left;
+    width:  200px;
+    height: 100px;
+    top: 50%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 $blue: rgb(35,46,86);
 $yellow: rgb(255,166,17);
 $white_bg: #f7f7f7;
@@ -341,7 +424,7 @@ $white_bg: #f7f7f7;
   min-height: 90vh;
 
   &.white {
-        
+
         background-color: $white_bg;
         color: rgb(50,50,50);
 
@@ -469,7 +552,7 @@ $white_bg: #f7f7f7;
         text-align: center;
         color: #fff;
         text-transform: uppercase;
-        
+
         .row {
             .col-sm-12 {
                 padding-top: 3em;
@@ -500,7 +583,7 @@ $white_bg: #f7f7f7;
     }
 
     &.end {
-        
+
         background-color: $blue;
         border-top: solid 1px $blue;
         color: #fff;
@@ -529,7 +612,7 @@ $white_bg: #f7f7f7;
             &:first-child {
                 padding: 20px 40px;
                 color: #fff;
-                
+
                 span.q {
                     font-size: 1.5em;
                     position: relative;
@@ -582,7 +665,7 @@ $white_bg: #f7f7f7;
                 &:first-child {
 
                     padding: 50px;
-                    
+
                     span.q {
                         font-size: 2.5em;
                         position: relative;
@@ -618,7 +701,7 @@ $white_bg: #f7f7f7;
     .page {
         &.start {
             text-align: left;
-            
+
             h2 {
                 font-size: 1em;
             }
@@ -633,7 +716,7 @@ $white_bg: #f7f7f7;
 
         }
 
-        &.white {   
+        &.white {
             h1 {
                 font-size: 3em;
             }
@@ -654,7 +737,7 @@ $white_bg: #f7f7f7;
 @media all and (min-width:992px) {
     .page {
         &.start {
-            
+
             h2 {
                 font-size: 1.5em;
             }
@@ -688,7 +771,7 @@ $white_bg: #f7f7f7;
 @media all and (min-width:1200px) {
     .page {
         &.start {
-            
+
             h2 {
                 font-size: 2.5em;
             }
