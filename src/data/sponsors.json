@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Amfi Pyramiden",
+    "image": "ami_pyramiden.jpg"
+  },
+  {
+    "name": "BP Energi AS",
+    "image": "bp_energi.png"
+  },
+  {
+    "name": "CONSTO",
+    "image": "consto.jpg"
+  },
+  {
+    "name": "Eimskip",
+    "image": "Eimskip_crop.jpg"
+  },
+  {
+    "name": "Einerhagen",
+    "image": "Einerhagen.jpg"
+  },
+  {
+    "name": "Ishavskraft",
+    "image": "logo-ishavskraft_transparent.png"
+  },
+  {
+    "name": "Mystore.no",
+    "image": "mystorelogo.png"
+  },
+  {
+    "name": "Price Water Cooper",
+    "image": "pwc_crop.jpg"
+  },
+  {
+    "name": "Schwenke",
+    "image": "schwenke_transparent.png"
+  },
+  {
+    "name": "Sparebanken Nord-Norge",
+    "image": "snn.png"
+  },
+  {
+    "name": "Teknisk Bureau",
+    "image": "teknisk_bureau_transparent.png"
+  },
+  {
+    "name": "Totalrenovering",
+    "image": "totalrenovering_transparent.png"
+  },
+  {
+    "name": "VVS 24",
+    "image": "vvs-logo-light_crop.png"
+  }
+]
