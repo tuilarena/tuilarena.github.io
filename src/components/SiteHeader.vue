@@ -4,7 +4,9 @@
 	    <div class="container-fluid">
 	        <div class="row align-items-center">
 	            <div class="col p-3 pl-4">
-	                <img src="../assets/tuil-logo.svg" style="width: 40px;">
+	                <router-link to="/">
+	                	<img src="../assets/tuil-logo.svg" style="width: 40px;">
+	                </router-link>
 	            </div>
 	            <div class="col text-right text-white pr-4">
 
@@ -12,7 +14,8 @@
 
 	                <div class="menu">
 	                	<span class="border-transparent">Bli arenaløfter!</span>
-	                	<a href="https://butikk.tuil.no/categories/arena-ii" target="_blank" class="text-white border border-white rounded p-2 ml-3">Privatperson</a>
+	                	<router-link to="/privat" class="text-white border border-white rounded p-2 ml-3">Privatperson</router-link>
+	                	<!-- <a href="https://butikk.tuil.no/categories/arena-ii" target="_blank" class="text-white border border-white rounded p-2 ml-3">Privatperson</a> -->
 	                	<a href="#" class="text-white border border-white rounded p-2 ml-3">Bedrift</a>
 	                </div>
 	            </div>
@@ -42,7 +45,6 @@ export default {
 
 		handleScroll() {
 			this.fixed = window.scrollY > 75 ? true : false
-			console.log(this.$refs.header.clientHeight, window.scrollY)
 		}
 	},
 

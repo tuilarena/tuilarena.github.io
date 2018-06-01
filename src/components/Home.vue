@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="HomePage">
     <template>
         <div class="page start">
           <div class="container">
