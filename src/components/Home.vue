@@ -16,75 +16,12 @@
                 <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
               </div>
               <div class="col-sm-12">
-                <carousel autoplay="true" loop="true" perPage="3" style="background-color:#F7F7F7">
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/amfi_pyramiden.jpg">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/bp-energi.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/consto.jpg">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/Eimskip_crop.jpg">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/Einerhagen.jpg">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/logo-ishavskraft_transparent.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/mystorelogo.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/Olavsvern_logo_web_sort.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/pwc_crop.jpg">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/schwenke_transparent.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/snn.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/teknisk_bureau_transparent.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/totalrenovering_transparent.png">
-                    </div>
-                  </slide>
-                  <slide>
-                    <div class="img-same-size">
-                      <img src="../assets/sponsors/vvs24-logo-light_crop.png">
+                <carousel style="background-color:#F7F7F7" :perPage="3" :autoplay="true" :loop="true">
+                  <slide v-for="(sponsor, index) in sponsors" :key="index">
+                    <div class="img-same-size superman">
+                      <a :href="sponsor.url" alt=":sponsor.name" target="_blank">
+                        <img :src="sponsorImage(sponsor)" :title="sponsor.name">
+                      </a>
                     </div>
                   </slide>
                 </carousel>
@@ -402,8 +339,14 @@
 import { mapState } from 'vuex'
 export default {
   computed: {
-    ...mapState(['showOverlayMenu'])
+    ...mapState(['showOverlayMenu', 'customers', 'sponsors'])
   },
+
+  methods: {
+    sponsorImage (sponsor) {
+      return require("@/assets/sponsors/" + sponsor.image)
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>
