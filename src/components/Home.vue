@@ -295,7 +295,7 @@
 
           <div class="row">
            <div class="col-12">
-             <img class="d-sm-nones" src="resources/images/folder/Page-12-Image-16.jpg" alt="Nye TUIL Arean">
+             <img class="d-sm-nones" src="../assets/folder/Page-12-Image-16.jpg" alt="Nye TUIL Arean">
            </div>
          </div>
 
