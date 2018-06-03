@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row mt-4">
 			<div class="col text-right pr-4">
-				<i class="fas fa-times" @click="toggleOverlayMenu()" style="cursor: pointer"></i>
+				<font-awesome-icon icon="times" @click="toggleOverlayMenu()" style="cursor: pointer" />
 			</div>
 		</div>
 
@@ -44,6 +44,7 @@
 </template>
 <script>
 import { mapState, mapActions } from 'vuex'
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 export default {
 	computed: {
 		...mapState(['showOverlayMenu'])
@@ -60,6 +61,9 @@ export default {
 			console.log('business')
 			this.toggleOverlayMenu()
 		}
+	},
+	components: {
+		FontAwesomeIcon
 	}
 };
 </script>

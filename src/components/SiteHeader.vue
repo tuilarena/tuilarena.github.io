@@ -10,7 +10,7 @@
 	            </div>
 	            <div class="col text-right text-white pr-4">
 
-					<i class="fas fa-bars" @click="toggleOverlayMenu()" style="cursor: pointer;"></i>
+					<font-awesome-icon icon="bars" @click="toggleOverlayMenu()" style="cursor: pointer" />
 
 	                <div class="menu">
 	                	<span class="border-transparent">Bli arenaløfter!</span>
@@ -26,6 +26,7 @@
 <script>
 import OverlayMenu from './OverlayMenu'
 import { mapState, mapActions } from 'vuex'
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 export default {
 	data() {
 		return {
@@ -33,7 +34,8 @@ export default {
 		}
 	},
 	components: {
-		OverlayMenu
+		OverlayMenu,
+		FontAwesomeIcon
 	},
 
 	computed: {
