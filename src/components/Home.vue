@@ -350,6 +350,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import '../assets/styles/variables.scss';
 .img-same-size {
     position: relative;
     float: left;
@@ -360,9 +361,6 @@ export default {
     background-repeat:   no-repeat;
     background-size:     cover;
 }
-$blue: rgb(35,46,86);
-$yellow: rgb(255,166,17);
-$white_bg: #f7f7f7;
 .page {
   min-height: 90vh;
 

@@ -18,14 +18,16 @@ export default {
 };
 </script>
 <style lang="scss">
-$blue: rgb(35,46,86);
-$yellow: rgb(255,166,17);
-$white_bg: #f7f7f7;
+@import './assets/styles/variables.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+// $blue: rgb(35,46,86);
+// $yellow: rgb(255,166,17);
+// $white_bg: #f7f7f7;
 
-$font-family: 'Roboto', sans-serif;
+// $font-family: 'Roboto', sans-serif;
 
-* {
-    font-family: $font-family;
-    font-weight: 400;
-}
+// * {
+//     font-family: $font-family;
+//     font-weight: 400;
+// }
 </style>

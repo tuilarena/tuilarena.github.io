@@ -55,11 +55,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-$blue: rgb(35,46,86);
-$yellow: rgb(255,166,17);
-$white_bg: #f7f7f7;
-
-$font-family: 'Roboto', sans-serif;
+@import '../assets/styles/variables.scss';
 header {
     background-color: #222a46;
 
