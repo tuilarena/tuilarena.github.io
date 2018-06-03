@@ -4,6 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import store from './store'
 import router from './router'
+
+import fontawesome from '@fortawesome/fontawesome'
+import solids from '@fortawesome/fontawesome-free-solid'
+// import faSpinner from '@fortawesome/fontawesome-free-solid/faSpinner'
+// import faMale from '@fortawesome/fontawesome-free-solid/faMale'
+// import faFemale from '@fortawesome/fontawesome-free-solid/faFemale'
+
+fontawesome.library.add(solids)
+
 import VueCarousel from 'vue-carousel'
 
 Vue.use(VueCarousel);

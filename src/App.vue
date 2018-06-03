@@ -18,6 +18,9 @@ export default {
 };
 </script>
 <style lang="scss">
+// Import custom font from Google
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+
 @import './assets/styles/variables.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 // $blue: rgb(35,46,86);
