@@ -14,7 +14,7 @@
   {
     "firstname": "Bjørnar",
     "lastname": "Anfinsen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-31 17:34:50"
   },
   {
@@ -26,19 +26,19 @@
   {
     "firstname": "Hermod",
     "lastname": "Bakkejord",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-03 20:06:09"
   },
   {
     "firstname": "Bitten",
     "lastname": "Barman-Jenssen",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-26 21:50:14"
   },
   {
     "firstname": "Knut",
     "lastname": "Barman-Jenssen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-26 21:54:14"
   },
   {
@@ -62,7 +62,7 @@
   {
     "firstname": "Atle",
     "lastname": "Bessesen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-03 20:59:09"
   },
   {
@@ -116,7 +116,7 @@
   {
     "firstname": "Are",
     "lastname": "Edvardsen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-11-09 16:58:29"
   },
   {
@@ -146,7 +146,7 @@
   {
     "firstname": "Thomas K.",
     "lastname": "Føre",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-31 09:27:28"
   },
   {
@@ -200,7 +200,7 @@
   {
     "firstname": "Isak",
     "lastname": "Harbitz",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-19 14:50:42"
   },
   {
@@ -212,19 +212,19 @@
   {
     "firstname": "Hilde",
     "lastname": "Hauan",
-    "gender": "",
+    "gender": "h",
     "date": "2017-12-17 13:11:31"
   },
   {
     "firstname": "Odd Arne",
     "lastname": "Heggås",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-23 13:40:09"
   },
   {
     "firstname": "Thomas",
     "lastname": "Heide",
-    "gender": "",
+    "gender": "m",
     "date": "2017-09-28 21:40:12"
   },
   {
@@ -302,13 +302,13 @@
   {
     "firstname": "Britt",
     "lastname": "Kjærnes",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-21 11:03:41"
   },
   {
     "firstname": "Britt",
     "lastname": "Kjærnes",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-29 15:52:19"
   },
   {
@@ -344,18 +344,18 @@
   {
     "firstname": "Morten",
     "lastname": "Lind-Olsen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-18 14:36:56"
   },
   {
     "firstname": "Hilde",
     "lastname": "Lind-Olsen",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-03 21:25:27"
   },
   {
-    "firstname": "EIRIK",
-    "lastname": "LOHNE",
+    "firstname": "Eirik",
+    "lastname": "Lohne",
     "gender": "m",
     "date": "2017-10-04 16:03:48"
   },
@@ -368,7 +368,7 @@
   {
     "firstname": "Inge",
     "lastname": "Lykseth",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-07 23:04:43"
   },
   {
@@ -398,7 +398,7 @@
   {
     "firstname": "Knut Are",
     "lastname": "Mortensen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-07 22:31:06"
   },
   {
@@ -410,19 +410,19 @@
   {
     "firstname": "Martin",
     "lastname": "Myrlund",
-    "gender": "",
+    "gender": "m",
     "date": "2017-12-15 09:18:26"
   },
   {
     "firstname": "Martin",
     "lastname": "Myrlund",
-    "gender": "",
+    "gender": "m",
     "date": "2017-09-29 16:06:04"
   },
   {
     "firstname": "Roger",
     "lastname": "Ness",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-19 12:52:38"
   },
   {
@@ -452,7 +452,7 @@
   {
     "firstname": "Espen Skogly",
     "lastname": "Olsen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-27 12:05:54"
   },
   {
@@ -464,7 +464,7 @@
   {
     "firstname": "Frode",
     "lastname": "Pedersen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-09-29 09:04:26"
   },
   {
@@ -482,19 +482,19 @@
   {
     "firstname": "Kristin L.",
     "lastname": "Pettersen",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-23 13:35:21"
   },
   {
     "firstname": "Karin",
     "lastname": "Renø",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-09 14:19:50"
   },
   {
     "firstname": "Espen",
     "lastname": "Renø Svendsen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-03 11:40:42"
   },
   {
@@ -517,7 +517,7 @@
   },
   {
     "firstname": "Knut",
-    "lastname": "Rye-holmboe",
+    "lastname": "Rye-Holmboe",
     "gender": "m",
     "date": "2017-10-03 12:26:27"
   },
@@ -536,7 +536,7 @@
   {
     "firstname": "Asbjørn",
     "lastname": "Rørnes",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-18 19:06:23"
   },
   {
@@ -566,7 +566,7 @@
   {
     "firstname": "Jens",
     "lastname": "Skoglund",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-08 14:29:44"
   },
   {
@@ -584,7 +584,7 @@
   {
     "firstname": "Camilla",
     "lastname": "Solheim",
-    "gender": "",
+    "gender": "f",
     "date": "2017-10-03 13:19:08"
   },
   {
@@ -632,7 +632,7 @@
   {
     "firstname": "Dag",
     "lastname": "Tørrissen",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-03 17:58:26"
   },
   {
@@ -650,7 +650,7 @@
   {
     "firstname": "Geir",
     "lastname": "Vollstad",
-    "gender": "",
+    "gender": "m",
     "date": "2017-10-05 22:02:40"
   },
   {
