@@ -24,10 +24,10 @@
 				</p>
 			</div>
 			<div class="col pl-4">
-				<a href="#" class="btn btn-primary btn-block" @click="private()">Privatperson</a>
+				<router-link to="/privat" class="btn btn-primary btn-block" @click.native="private()">Privatperson</router-link>
 			</div>
 			<div class="col pr-4">
-				<a href="#" class="btn btn-primary btn-block" @click="business()">Bedrift</a>
+				<router-link to="/bedrift" class="btn btn-primary btn-block" @click.native="business()">Bedrift</router-link>
 			</div>
 		</div>
 
@@ -53,7 +53,6 @@ export default {
 		...mapActions(['toggleOverlayMenu']),
 
 		private() {
-			console.log('private')
 			this.toggleOverlayMenu()
 		},
 
