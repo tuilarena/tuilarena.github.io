@@ -51,8 +51,8 @@ export default {
 	},
 
 	mounted() {
-		window.addEventListener('scroll', this.handleScroll);
-		this.handleScroll()
+		// window.addEventListener('scroll', this.handleScroll);
+		// this.handleScroll()
 	}
 };
 </script>
@@ -61,11 +61,11 @@ export default {
 header {
     background-color: #222a46;
 
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    z-index: 10000;
 
     background-color: #222a46;
 
