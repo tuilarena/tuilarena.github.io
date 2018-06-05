@@ -8,6 +8,12 @@
 					<h4 class="mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på stadion for evig tid.</h4>
 
 					<div class="row">
+						<div class="col text-center mb-5">
+							<a href="https://butikk.tuil.no/categories/arena-ii" class="btn btn-primary">Kjøp navneplass</a>
+						</div>
+					</div>
+
+					<div class="row">
 						<div class="col mb-5">
 							<customer v-for="(customer, index) in customers" :key="index" :customer="customer"></customer>
 						</div>
@@ -16,7 +22,9 @@
 					<div class="row">
 						<div class="col">
 							<span class="name mr-1" v-for="(customer, index) in customers">
-								<span :class="{hover: customer.hover == true}" class="label">{{ customer.firstname }} {{ customer.lastname }}</span>
+								<span 
+									:class="{hover: customer.hover == true}" 
+									class="label">{{ customer.firstname }} {{ customer.lastname }}</span>
 								<span v-if="index+1 < customers.length"> &bull;</span>
 							</span>
 						</div>
