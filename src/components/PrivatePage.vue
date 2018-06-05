@@ -9,19 +9,15 @@
 
 					<div class="row">
 						<div class="col mb-5">
-							<font-awesome-icon 
-								:icon="icon(customer)" 
-								size="3x" 
-								v-for="(customer, index) in customers" 
-								:key="index" 
-								class="mr-3 mb-3" />
+							<customer v-for="(customer, index) in customers" :key="index" :customer="customer"></customer>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="col">
 							<span class="name mr-1" v-for="(customer, index) in customers">
-								{{ customer.firstname }} {{ customer.lastname }}<span v-if="index+1 < customers.length">, </span>
+								<span :class="{hover: customer.hover == true}" class="label">{{ customer.firstname }} {{ customer.lastname }}</span>
+								<span v-if="index+1 < customers.length"> &bull;</span>
 							</span>
 						</div>
 					</div>
@@ -32,13 +28,14 @@
 	</div>
 </template>
 <script>
-	import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
-	import { mapState } from 'vuex'
+	import Customer from './Customer.vue'
+	import { mapActions, mapState, mapGetters } from 'vuex'
 	export default {
 		computed: {
 			...mapState(['customers'])
 		},
 		methods: {
+			...mapActions(['toggleHoverCustomer']),
 			icon(customer) {
 				if (customer.gender == '') {
 					return 'question';	
@@ -48,7 +45,7 @@
 			}
 		},
 		components: {
-			FontAwesomeIcon
+			Customer
 		}
 	};
 </script>
@@ -63,6 +60,13 @@
 
 	.name {
 		font-size: .9rem;
+
+		.label {
+			white-space: nowrap;
+			&.hover {
+				font-weight: bold;
+			}
+		}
 	}
 
 	h4 {
