@@ -15,8 +15,9 @@
 	                <div class="menu">
 	                	<span class="border-transparent">Bli arenaløfter!</span>
 	                	<router-link to="/privat" class="text-white border border-white rounded p-2 ml-3">Privatperson</router-link>
+	                	<router-link to="/bedrift" class="text-white border border-white rounded p-2 ml-3">Bedrift</router-link>
 	                	<!-- <a href="https://butikk.tuil.no/categories/arena-ii" target="_blank" class="text-white border border-white rounded p-2 ml-3">Privatperson</a> -->
-	                	<a href="#" class="text-white border border-white rounded p-2 ml-3">Bedrift</a>
+	                	<!-- <a href="#" class="text-white border border-white rounded p-2 ml-3">Bedrift</a> -->
 	                </div>
 	            </div>
 	        </div>

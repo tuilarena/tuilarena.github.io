@@ -55,13 +55,13 @@
     "url": "https://www.tbureau.no/"
   },
   {
-    "name": "Totalrenovering",
-    "image": "totalrenovering_transparent.png",
-    "url": "http://www.totalrenovering.no/"
-  },
-  {
     "name": "VVS 24",
     "image": "vvs24-logo-light_crop.png",
     "url": "http://www.vvs24.com/"
+  },
+  {
+    "name": "Totalrenovering",
+    "image": "totalrenovering_transparent.png",
+    "url": "http://www.totalrenovering.no/"
   }
 ]
