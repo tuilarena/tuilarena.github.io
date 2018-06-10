@@ -15,19 +15,25 @@
               <div class="col-sm-12 col-md-8">
                 <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
               </div>
-              <div class="col-sm-12">
-                <carousel style="background-color:#F7F7F7" :perPage="3" :autoplay="true" :loop="true">
-                  <slide v-for="(sponsor, index) in sponsors" :key="index">
-                    <div class="img-same-size superman">
-                      <a :href="sponsor.url" alt=":sponsor.name" target="_blank">
-                        <img :src="sponsorImage(sponsor)" :title="sponsor.name">
-                      </a>
-                    </div>
-                  </slide>
-                </carousel>
+            </div>
+          </div>
+        </div>
+
+        <div class="page white">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center mt-5">
+                <h1>Sponsorer</h1>
+                <p class="intro">TUIL er stolte over å ha så mange fine sponsorer til. Er ikke din bedrift her? Kontakt TUIL.</p>
+                <sponsors></sponsors>
+
+                <h1>Privatløftere</h1>
+                <p class="intro mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på stadion for evig tid.</p>
+                <customers></customers>
               </div>
             </div>
           </div>
+          
         </div>
 
         <div class="page image evolving">
@@ -336,6 +342,8 @@
 </template>
 
 <script>
+import Sponsors from './Sponsors'
+import Customers from './Customers'
 import { mapState } from 'vuex'
 export default {
   computed: {
@@ -346,6 +354,10 @@ export default {
     sponsorImage (sponsor) {
       return require("@/assets/sponsors/" + sponsor.image)
     }
+  },
+  components: {
+    Sponsors,
+    Customers
   }
 };
 </script>

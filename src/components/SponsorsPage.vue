@@ -9,22 +9,22 @@
 				</div>
 			</div>
 			<div class="row align-items-center mb-5">
-				<div class="col col-4 col-md-3 col-lg-2 text-center" v-for="(sponsor, index) in sponsors" :key="index">
-					<sponsor :sponsor="sponsor"></sponsor>
+				<div class="col">
+					<sponsors></sponsors>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
-	import Sponsor from './Sponsor'
+	import Sponsors from './Sponsors'
 	import { mapState } from 'vuex'
 	export default {
 		computed: {
 			...mapState(['sponsors'])
 		},
 		components: {
-			Sponsor
+			Sponsors
 		}
 	};
 </script>

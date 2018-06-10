@@ -55,7 +55,10 @@
 		position: relative;
 		transition: transform .2s;
 
+		color: cornflowerblue;
+
 		&.female {
+			color: hotpink;
 			&:hover {
 				transform: rotate(-10deg) scale(1.5)
 			}

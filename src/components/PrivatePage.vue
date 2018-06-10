@@ -15,6 +15,7 @@
 
 					<div class="row">
 						<div class="col mb-5">
+							<customers></customers>
 							<customer v-for="(customer, index) in customers" :key="index" :customer="customer"></customer>
 						</div>
 					</div>
@@ -36,6 +37,7 @@
 	</div>
 </template>
 <script>
+	import Customers from './Customers.vue'
 	import Customer from './Customer.vue'
 	import { mapActions, mapState, mapGetters } from 'vuex'
 	export default {
@@ -53,17 +55,13 @@
 			}
 		},
 		components: {
-			Customer
+			Customers
 		}
 	};
 </script>
 <style lang="scss">
-	.fa-male {
-		color: cornflowerblue;
-	}
-
-	.fa-female {
-		color: hotpink;
+	h4 {
+		font-weight: 300;
 	}
 
 	.name {
@@ -75,9 +73,5 @@
 				font-weight: bold;
 			}
 		}
-	}
-
-	h4 {
-		font-weight: 300;
 	}
 </style>
