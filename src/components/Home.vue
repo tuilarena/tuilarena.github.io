@@ -13,7 +13,7 @@
               </div>
 
               <div class="col-sm-12 col-md-8">
-                <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arean">
+                <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arena">
               </div>
             </div>
           </div>
@@ -342,6 +342,7 @@
 </template>
 
 <script>
+import Start from './HomeStart'
 import Sponsors from './Sponsors'
 import Customers from './Customers'
 import { mapState } from 'vuex'
@@ -357,11 +358,12 @@ export default {
   },
   components: {
     Sponsors,
-    Customers
+    Customers,
+    Start
   }
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 @import '../assets/styles/variables.scss';
 .img-same-size {
     position: relative;

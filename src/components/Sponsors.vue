@@ -2,7 +2,7 @@
 	<div class="sponsors-grid">
 		<div class="container">
 			<div class="row">
-				<div class="col col-4 col-md-3 col-lg-2 text-center" v-for="(sponsor, index) in sponsors" :key="index">
+				<div class="col-6 col-md-4 col-lg-3 text-center" v-for="(sponsor, index) in sponsors" :key="index">
 					<sponsor :sponsor="sponsor"></sponsor>
 				</div>
 			</div>
