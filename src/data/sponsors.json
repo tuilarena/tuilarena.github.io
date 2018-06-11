@@ -1,7 +1,7 @@
 [
   {
     "name": "Amfi Pyramiden",
-    "image": "amfi_pyramiden.jpg",
+    "image": "amfi_pyramiden_lengdelogo.png",
     "url": "http://www.amfi.no/kjopesentre/amfi-pyramiden/"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "name": "Eimskip",
-    "image": "Eimskip_crop.jpg",
+    "image": "Eimskip2.png",
     "url": "https://www.eimskip.com/"
   },
   {
@@ -31,12 +31,12 @@
   },
   {
     "name": "Mystore.no",
-    "image": "mystorelogo.png",
+    "image": "mystore.png",
     "url": "https://www.mystore.no"
   },
   {
     "name": "Price Water Cooper",
-    "image": "pwc_crop.jpg",
+    "image": "pwc2.png",
     "url": "https://www.pwc.no/no/kontorer/tromso.html"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "name": "Sparebanken Nord-Norge",
-    "image": "snn.png",
+    "image": "SNN_pos.png",
     "url": "https://www.sparebank1.no/nb/nord-norge/privat.html"
   },
   {
