@@ -255,9 +255,6 @@
                     <strong>UTVIKLINGSPARTNEREN</strong>
                     <p>Har muligheten for eksponering på nivå med hovedsamarbeidspartner. Omfanget er stort, men her er det gjerne faglig og banebrytende prosjektsamarbeid som er den store drivkraften.</p>
                   </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-block">Les mer</a>
-                  </div>
                 </div>
               </div>
               <div class="col">
@@ -265,9 +262,6 @@
                   <div class="card-body">
                     <strong>BYDELSLØFTEREN</strong>
                     <p>Bidrar med 30.000 kr årlig i inntil 5 år som øremerkes aktiviteten i TUIL Arena. Fremtredene profilering i inngangpartiet til TUIL Arena og tilgang til aktiviteter i forbindelse med kamp og andre arrangementer som bedriftsfotballcup og sponsortreff.</p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-block">Les mer</a>
                   </div>
                 </div>
               </div>
@@ -277,9 +271,6 @@
                     <strong>ARENALØFTEREN</strong>
                     <p>Bidrar med 15.000 kr årlig i inntil 5 år som øremerkes akiviteten i TUIL Arena. Profilering i TUIL Arena og tilgang til aktiviteter i forbindelse med kamp og sponsortreff.</p>
                   </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-block">Les mer</a>
-                  </div>
                 </div>
               </div>
               <div class="col">
@@ -287,9 +278,6 @@
                   <div class="card-body">
                     <strong>PRIVATLØFTEREN</strong>
                     <p>Bidrar med 500 kr årlig over 3 år. Gir evigvarende inskripsjon på TUIL Arena og invitasjon til åpnings- fest. Inkluderer nyhetsbrev og invitasjoner til andre arrangement.</p>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-primary btn-block">Les mer</a>
                   </div>
                 </div>
               </div>
