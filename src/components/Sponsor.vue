@@ -17,7 +17,7 @@
 </script>
 <style lang="scss">
 	.sponsor {
-		padding: 30px 20px;
+		padding: 30px 0px;
 		a {
 			img {
 				max-width: 100%;

@@ -1,6 +1,6 @@
 <template>
 	<div class="customers-grid"> 
-		<div class="container">
+		<div class="customers">
 			<div class="row">
 				<div class="col mb-5">
 					<customer v-for="(customer, index) in customers" :key="index" :customer="customer"></customer>
