@@ -35,7 +35,9 @@
 			<div class="col pr-4 pl-4">
 				<ul>
 					<li>Se hvem som allerede har kjøpt</li>
-					<li><a href="#" class="text-white">TUIL takker disse bedriftene</a></li>
+					<li>
+						<router-link to="/bedrift" class="btn btn-primary btn-block" @click.native="business()">TUIL takker disse bedriftene</router-link>
+					</li>
 				</ul>
 			</div>
 		</div>
