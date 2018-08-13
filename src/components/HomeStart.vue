@@ -23,7 +23,7 @@
 <style lang="scss" scoped>
 	.page.start {
 		background-color: blue;
-		background: url('../assets/folder/Page-1-Image-1.jpg') top center no-repeat;
+		background: url('../assets/folder/Page-1-Image-1-wide.jpg') top center no-repeat;
 		background-size: cover;
 	}
 </style>

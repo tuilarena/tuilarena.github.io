@@ -5,11 +5,11 @@
 				<div class="col text-center">
 
 					<h1 class="mb-5">Privatløfteren</h1>
-					<h4 class="mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på stadion for evig tid.</h4>
+					<h4 class="mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på TUIL Arena for evig tid.</h4>
 
 					<div class="row">
 						<div class="col text-center mb-5">
-							<a href="https://butikk.tuil.no/categories/arena-ii" class="btn btn-primary">Kjøp navneplass</a>
+							<a href="https://butikk.tuil.no/categories/arena-ii" class="btn btn-primary">Bli Arenaløfter</a>
 						</div>
 					</div>
 

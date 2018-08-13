@@ -3,9 +3,9 @@
 		<div class="container">
 			<div class="row mb-5 text-center">
 				<div class="col ml-5 mr-5">
-					<h1 class="mb-5">Sponsorer</h1>
-					<p class="mb-5">TUIL er stolte over å ha så mange fine sponsorer til. Er ikke din bedrift her? Trykk på knappen under.</p>
-					<a href="#" class="btn btn-primary">Kjøp bedriftspakken</a>
+					<h1 class="mb-5">Arenaløftere</h1>
+					<p class="mb-5">TUIL er stolt over å ha gode partnere med på laget. Er ikke din bedrift her? Trykk på knappen under.</p>
+					<a href="mailto:geir.arntzen@tuil.no?subject=Min bedrift ønsker å bli Arenaløfter" class="btn btn-primary">Bli arenaløfter</a>
 				</div>
 			</div>
 			<div class="row align-items-center mb-5">

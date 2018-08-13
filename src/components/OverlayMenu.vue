@@ -20,7 +20,7 @@
 		<div class="row mb-5">
 			<div class="col-12 text-center pr-4 pl-4 support-as-text">
 				<p>
-					Støtt TUIL som
+					Bli Arenaløfter
 				</p>
 			</div>
 			<div class="col pl-4">
@@ -32,13 +32,16 @@
 		</div>
 
 		<div class="row mb-5">
-			<div class="col pr-4 pl-4">
-				<ul>
-					<li>Se hvem som allerede har kjøpt</li>
-					<li>
-						<router-link to="/bedrift" class="btn btn-primary btn-block" @click.native="business()">TUIL takker disse bedriftene</router-link>
-					</li>
-				</ul>
+			<div class="col-12 text-center pr-4 pl-4 support-as-text">
+				<p>
+					TUIL takker disse
+				</p>
+			</div>
+			<div class="col pl-4">
+				<router-link to="/privat" class="btn btn-primary btn-block" @click.native="private()">Personer</router-link>
+			</div>
+			<div class="col pr-4">
+				<router-link to="/bedrift" class="btn btn-primary btn-block" @click.native="business()">Bedrifter</router-link>
 			</div>
 		</div>
 	</div>

@@ -7,12 +7,12 @@
           <div class="col-sm-12 col-md-4">
             <h2>Tromsdalen for alle</h2>
             <h1>TUIL Arena bygges ut</h1>
-            <p>Åpner oktober 2018</p>
+            <p>Åpner 2018</p>
 
           </div>
 
           <div class="col-sm-12 col-md-8">
-            <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1.jpg" alt="Nye TUIL Arena">
+            <img class="d-sm-nones" src="../assets/folder/Page-1-Image-1-wide.jpg" alt="Nye TUIL Arena">
           </div>
         </div>
       </div>
@@ -22,12 +22,12 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mt-5">
-            <h1>Sponsorer</h1>
-            <p class="intro">TUIL er stolte over å ha så mange fine sponsorer til. Er ikke din bedrift her? Kontakt TUIL.</p>
+            <h1>Arenaløftere</h1>
+            <p class="intro">TUIL er stolt over å ha gode partnere med på laget. Er ikke din bedrift her? <router-link to="/bedrift" @click.native="business()">Kontakt TUIL.</router-link></p>
             <sponsors></sponsors>
 
             <h1>Privatløftere</h1>
-            <p class="intro mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på stadion for evig tid.</p>
+            <p class="intro mb-5">Disse stolte Tromsdalingene har allerede støttet utbyggingen ved å kjøpe sitt navn på TUIL Arena for evig tid. <router-link to="/privat" @click.native="private()">Bli med du også.</router-link></p>
             <customers></customers>
           </div>
         </div>
@@ -305,7 +305,7 @@
               <li>Garderober og fasiliteter til idrett</li>
               <li>Vrimleområder</li>
               <li>Kontor- og næringsarealer</li>
-              <li>Høy tilgjengelighet for  est mulig</li>
+              <li>Høy tilgjengelighet for flest mulig</li>
               <li>Åpner Oktober 2018</li>
               <li>Byggherre TUIL AS – et selskap heleid av TUIL</li>
               <li>Totalentrepeør – Hugaasgruppen</li>
