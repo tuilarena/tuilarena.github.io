@@ -63,5 +63,10 @@
     "name": "Totalrenovering",
     "image": "totalrenovering_blue.png",
     "url": "http://www.totalrenovering.no/"
+  },
+  {
+    "name": "Olavsvern Group AS",
+    "image": "Olavsvern_logo_web_sort.png",
+    "url": "https://olavsvern.no/"
   }
 ]
