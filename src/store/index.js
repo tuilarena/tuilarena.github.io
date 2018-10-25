@@ -5,7 +5,7 @@ import customers from '@/data/customers.json'
 import sponsors from '@/data/sponsors.json'
 
 Vue.use(Vuex)
-
+//
 const store = new Vuex.Store({
 	state: {
 		showOverlayMenu: false,
