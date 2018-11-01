@@ -73,5 +73,10 @@
     "name": "CB Partner",
     "image": "cbpartner.png",
     "url": "https://www.cbpartner.no/"
+  },
+  {
+    "name": "Allegro Restaurant",
+    "image": "allegro.png",
+    "url": "http://allegropizza.no/"
   }
 ]
