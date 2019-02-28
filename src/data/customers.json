@@ -1,5 +1,11 @@
 [
   {
+    "firstname": "Ole Vegar",
+    "lastname": "Andreassen",
+    "gender": "m",
+    "date": "2019-02-28 12:31:34"
+  },
+  {
     "firstname": "Tom Robert",
     "lastname": "Aasnes",
     "gender": "m",
