@@ -7,8 +7,6 @@
           <div class="col-sm-12 col-md-4">
             <h2>Tromsdalen for alle</h2>
             <h1>TUIL Arena bygges ut</h1>
-            <p>Åpner 2018</p>
-
           </div>
 
           <div class="col-sm-12 col-md-8">
