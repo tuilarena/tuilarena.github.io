@@ -46,7 +46,7 @@
           <div class="col-12">
             <h1>TUIL ARENA – NESTE BYGGETRINN ER UNDERVEIS</h1>
             <div class="intro">
-              TUIL er i ferd med å realisere et av de mest nyskapende miljø i nordnorsk idrett. Når TUIL Arena byggetrinn 2 åpner høsten 2018, bringer det mange nye muligheter for allsidige aktiviteter i Tromsdalen.
+              TUIL er i ferd med å realisere et av de mest nyskapende miljø i nordnorsk idrett. Når TUIL Arena byggetrinn 2 åpner høsten 2019, bringer det mange nye muligheter for allsidige aktiviteter i Tromsdalen.
             </div>
           </div>
         </div>
@@ -304,7 +304,7 @@
               <li>Vrimleområder</li>
               <li>Kontor- og næringsarealer</li>
               <li>Høy tilgjengelighet for flest mulig</li>
-              <li>Åpner Oktober 2018</li>
+              <li>Åpner høsten 2019</li>
               <li>Byggherre TUIL AS – et selskap heleid av TUIL</li>
               <li>Totalentrepeør – Hugaasgruppen</li>
               <li>Inngår i utviklingsprosjektet «Fremtidens Bydel». Deltagere: TUIL, Troms Fylkeskommune, Tromsø Kommune, SpareBank 1 Nord-Norge</li>
