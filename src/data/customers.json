@@ -676,5 +676,41 @@
     "lastname": "Arntzen",
     "gender": "m",
     "date": "2018-09-27 20:26:56"
+  },
+  {
+    "firstname": "Irene",
+    "lastname": "Linchausen",
+    "gender": "f",
+    "date": "2018-05-28 20:18:00"
+  },
+  {
+    "firstname": "Tor-Egil",
+    "lastname": "Nilsen",
+    "gender": "m",
+    "date": "2018-05-28 11:15:00"
+  },
+  {
+    "firstname": "Kaj Rune",
+    "lastname": "Frederiksen",
+    "gender": "m",
+    "date": "2018-05-27 13:46:00"
+  },
+  {
+    "firstname": "Jesper",
+    "lastname": "Lind-Olsen",
+    "gender": "m",
+    "date": "2018-05-27 13:07:00"
+  },
+  {
+    "firstname": "Irene",
+    "lastname": "Linchausen",
+    "gender": "f",
+    "date": "2018-05-28 20:18:00"
+  },
+  {
+    "firstname": "Gøran",
+    "lastname": "Nylund",
+    "gender": "m",
+    "date": "2018-05-04 23:46:00"
   }
 ]
