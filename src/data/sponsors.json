@@ -83,5 +83,10 @@
     "name": "Allegro Restaurant",
     "image": "allegro4.png",
     "url": "http://allegropizza.no/"
+  },
+  {
+    "name": "Eidissen Consult",
+    "image": "eidissenconsult.png",
+    "url": "https://www.eidissen.com/"
   }
 ]
