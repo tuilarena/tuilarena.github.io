@@ -25,9 +25,24 @@
     "url": "http://www.einerhagen.no/"
   },
   {
+    "name": "Indira",
+    "image": "indira-logo.png",
+    "url": " https://www.indira.no/"
+  },
+  {
+    "name": "ISAS",
+    "image": "isaslogo-liten1.png",
+    "url": " http://www.isas.no/"
+  },
+  {
     "name": "Ishavskraft",
     "image": "logo-ishavskraft_transparent.png",
     "url": "https://www.ishavskraft.no/"
+  },
+  {
+    "name": "Kontordesign",
+    "image": "kontordesign.jpg",
+    "url": "https://www.kontordesign.no/  "
   },
   {
     "name": "Mystore.no",
