@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/warvik/tuilarena#readme",
   "devDependencies": {
-    "laravel-mix": "^2.1.11"
+    "laravel-mix": "^6.0.49"
   }
 }
